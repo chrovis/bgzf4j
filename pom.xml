@@ -7,8 +7,23 @@
   <packaging>jar</packaging>
 
   <name>bgzf4j</name>
-  <url>https://chrov.is</url>
+  <url>https://github.com/chrovis/bgzf4j</url>
   <description>A compression library for BGZF (Blocked GNU Zip Format)</description>
+
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>git@github.com:chrovis/bgzf4j.git</url>
+    <connection>scm:git:git@github.com:chrovis/bgzf4j.git</connection>
+    <developerConnection>scm:git:git@github.com:chrovis/bgzf4j.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
 
   <distributionManagement>
     <repository>
