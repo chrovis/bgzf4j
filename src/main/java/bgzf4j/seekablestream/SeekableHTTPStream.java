@@ -117,6 +117,9 @@ public class SeekableHTTPStream extends SeekableStream {
         if (len == 0) {
             return 0;
         }
+        if (position == contentLength) {
+            return -1;
+        }
 
         HttpURLConnection connection = null;
         InputStream is = null;
