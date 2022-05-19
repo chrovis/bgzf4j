@@ -140,6 +140,13 @@ public class SeekableHTTPStream extends SeekableStream {
 
             is = connection.getInputStream();
 
+            if (connection.getResponseCode() == 200) {
+                // The server can ignore the Range header and return the whole
+                // document with a 200 status code. In that case, we skip the
+                // input stream to the current position.
+                is.skip(position);
+            }
+
             while (n < len) {
                 int count = is.read(buffer, offset + n, len - n);
                 if (count < 0) {
