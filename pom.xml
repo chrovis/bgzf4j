@@ -3,7 +3,7 @@
 
   <groupId>bgzf4j</groupId>
   <artifactId>bgzf4j</artifactId>
-  <version>0.1.2-SNAPSHOT</version>
+  <version>0.1.2</version>
   <packaging>jar</packaging>
 
   <name>bgzf4j</name>
