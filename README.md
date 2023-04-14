@@ -9,7 +9,7 @@ bgzf4j is available from [Clojars](https://clojars.org/bgzf4j)
 Add the following dependency to your `project.clj`
 
 ```
-[bgzf4j "0.1.0"]
+[bgzf4j "0.1.1"]
 ```
 
 or add to your `pom.xml`
@@ -17,7 +17,7 @@ or add to your `pom.xml`
 ```
     <groupId>bgzf4j</groupId>
     <artifactId>bgzf4j</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
 ```
 
 ## Contributor
